@@ -1,4 +1,6 @@
-﻿export default [
+﻿import component from '@/locales/en-US/component';
+
+export default [
 	{
 		path: '/user',
 		layout: false,
@@ -24,6 +26,22 @@
 		component: './TrangChu',
 		icon: 'HomeOutlined',
 	},
+	//bài 1
+	{
+		path: '/guess-number',
+		name: 'Bài 1: Đoán số',
+		component: './guess-number',
+		icon: 'SmileOutlined',
+	},
+
+	//bài 2
+	{
+		path: '/todoList',
+		name: ' Bài 2:TodoList',
+		component: './todoList',
+		icon: 'TableOutlined',
+	},
+
 	{
 		path: '/gioi-thieu',
 		name: 'About',
@@ -37,7 +55,10 @@
 		icon: 'ArrowsAltOutlined',
 	},
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 	{
 		path: '/notification',
 		routes: [
